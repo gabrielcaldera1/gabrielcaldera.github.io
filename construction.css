@@ -1,62 +1,43 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #ffe9c8;
-    font-family: 'Great Vibes', cursive;
-    overflow: hidden;
-    background: #001f3f;
-    position: relative;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 600%;
-    height: 200%;
-    background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.08) 0%, transparent 60%),
-                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.05) 0%, transparent 60%),
-                radial-gradient(circle at 80% 30%, rgba(255,255,255,0.06) 0%, transparent 60%);
-    animation: moveLights 40s linear infinite alternate;
-    z-index: 0;
-}
-
-@keyframes moveLights {
-    0% {
-        transform: translate(0, 0) scale(1);
-    }
-    50% {
-        transform: translate(10%, -10%) scale(1.2);
-    }
-    100% {
-        transform: translate(-10%, 10%) scale(1);
-    }
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #f5e6cc;
+  font-family: 'Great Vibes', cursive;
+  overflow: hidden;
+  background: linear-gradient(120deg, #001f3f, #002a5c, #0b2447);
+  background-size: 200% 200%;
+  animation: breathingGradient 20s ease infinite;
+  position: relative;
 }
 
 h1 {
-  font-size: 3.5em; 
-  margin-bottom: 0.6em;
+  font-size: 4vw;
+  margin-bottom: 0.8em;
   font-weight: 600;
   text-transform: none;
+  color: #ffebc6;
+  letter-spacing: 0.05em;
 }
 
 p {
-  font-size: 1.4em; 
-  max-width: 800px;
+  font-size: 1.6vw;
+  max-width: 900px;
   margin: 0 auto;
   line-height: 1.8;
   opacity: 0.95;
+  color: #f6e8cc;
+  font-family: 'Playfair Display', serif;
 }
 
 footer {
-  font-size: 1.1em; 
-  margin-top: 1.5em;
+  margin-top: 1.8em;
+  font-size: 1.2vw;
   opacity: 0.85;
+  font-family: 'Playfair Display', serif;
+  color: #f3d7a4;
 }
-
