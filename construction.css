@@ -40,14 +40,14 @@ body::before {
 }
 
 h1 {
-  font-size: 5.0em;
+  font-size: 4.0em;
   margin-bottom: 0.6em;
   font-weight: 600;
   text-transform: none;
 }
 
 p {
-  font-size: 3.5em;
+  font-size: 2.5em;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.8;
