@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     text-align: center;
     color: #f6d6ac;
-    font-family: 'Playfair Display', serif;
+    font-family: "Story Script", sans-serif;
     overflow: hidden;
     background: #001f3f;
     position: relative;
@@ -50,13 +50,13 @@ h1 {
 }
 
 p {
-    max-width: 600px;
+    max-width: 400px;
     line-height: 1.5;
     opacity: 0.9;
 }
 
 .signature {
     margin-top: 2em;
-    font-style: italic;
+    font-style: normal;
     opacity: 0.8;
 }
